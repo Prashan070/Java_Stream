@@ -9,6 +9,11 @@ public class filterEvenAndSum {
 
         List<Integer> result = numbers.stream().filter(n -> n % 2 == 0).toList();
 
+
+
+
+
+
         result.forEach(System.out::println);
 
      /*   int sum = numbers.stream().filter(n->n%2==0).mapToInt(n->n).sum();

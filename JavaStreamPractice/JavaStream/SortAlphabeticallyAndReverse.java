@@ -9,6 +9,11 @@ public class SortAlphabeticallyAndReverse {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("Charlie", "Alice", "Bob");
 
+
+
+
+
+
         List<String> result = names.stream().sorted().collect(Collectors.toList());
         System.out.println(result);
 

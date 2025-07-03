@@ -13,6 +13,12 @@ public class FlatMapEx {
                 Arrays.asList(6, 7, 8)
         );
 
+
+
+
+
+
+
         List<Integer> result = nestedList.stream().flatMap(Collection::stream).toList();
         System.out.println(result);
 
