@@ -6,6 +6,7 @@ public class LowBoundandHighBound {
         int i = 0;
         int j = arr.length - 1;
         int ans = -1;
+
         while (i <= j) {
             int mid = i + (j - i) / 2;
 

@@ -14,7 +14,6 @@ public class SeparateEvenAndOddNumbers {
 
 
 
-
         Map<Boolean, List<Integer>> result = numbers.stream().collect(Collectors.partitioningBy(n->n%2==0));
 
         System.out.println(result);
